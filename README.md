@@ -49,8 +49,14 @@ And in the same place, after you have downloaded PlantUML jar library from
 https://github.com/plantuml/plantuml
 you have to set the path for it. 
 
-
 ## Credits
 Based on this Gedit Plugin
 
 https://github.com/ruudbeukema/gedit-plugin-plantuml
+
+## My Xed Plugins
+* xed-terminal-plugin https://github.com/tudo75/xed-terminal-plugin
+* xed-codecomment-plugin https://github.com/tudo75/xed-codecomment-plugin
+* xed-sessionsaver-plugin https://github.com/tudo75/xed-sessionsaver-plugin
+* xed-restore-tabs-plugin https://github.com/tudo75/xed-restore-tabs-plugin
+* xed-plantuml-plugin https://github.com/tudo75/xed-plantuml-plugin 
