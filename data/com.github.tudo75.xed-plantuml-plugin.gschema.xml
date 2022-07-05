@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema path="/com/github/tudo75/xed-plantuml-plugin/" 
+        id="com.github.tudo75.xed-plantuml-plugin">
+
+        <!-- settings -->
+
+        <key name="enable-plantuml" type="b">
+            <default>true</default>
+            <summary>Enable PlantUML</summary>
+        </key>
+
+        <key name="plantuml-file-path" type="s">
+            <default>'~/.local/share/xed/plugins/xed-plantuml-plugin/plantuml-1.2022.6.jar'</default>
+            <summary>PlantUML library path</summary>
+            <description>Path of the PalntUML jar library.</description>
+        </key>
+    </schema>
+</schemalist>
+

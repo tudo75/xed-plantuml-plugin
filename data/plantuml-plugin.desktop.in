@@ -1,0 +1,11 @@
+[Plugin]
+Module=plantuml
+IAge=2
+Name=PlantUML 
+Version=v0.0.1
+Description=Xed porting of the Gedit plantuml plugin
+Comment=Xed porting of the Gedit plantuml plugin
+Icon=system-software-install
+Authors=Nicola "tudo75" Tudino
+Copyright=Copyright © 2022 Nicola "tudo75" Tudino
+Website=https://github.com/tudo75/xed-plantuml-plugin
