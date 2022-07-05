@@ -24,22 +24,23 @@ To install on Ubuntu based distros:
 
 ## Install
 Clone the repository:
-
-    git clone https://github.com/tudo75/xed-plantuml-plugin.git
+	
+	git clone https://github.com/tudo75/xed-plantuml-plugin.git
 	cd xed-plantuml-plugin
 
 And from inside the cloned folder:
+	
 	meson setup build --prefix=/usr
-    ninja -v -C build com.github.tudo75.xed-plantuml-plugin-gmo
-    ninja -v -C build
-    ninja -v -C build install
+	ninja -v -C build com.github.tudo75.xed-plantuml-plugin-gmo
+	ninja -v -C build
+	ninja -v -C build install
 
 ## Uninstall
 To uninstall and remove all added files, go inside the cloned folder and:
 
 	sudo ninja -v -C build uninstall
-    sudo rm /usr/share/locale/en/LC_MESSAGES/com.github.tudo75.xed-plantuml-plugin.mo
-    sudo rm /usr/share/locale/it/LC_MESSAGES/com.github.tudo75.xed-plantuml-plugin.mo
+	sudo rm /usr/share/locale/en/LC_MESSAGES/com.github.tudo75.xed-plantuml-plugin.mo
+	sudo rm /usr/share/locale/it/LC_MESSAGES/com.github.tudo75.xed-plantuml-plugin.mo
 
 ## Instructions
 Plugin must be enabled from Edit -> Preferences -> Plugins -> PlantUML
