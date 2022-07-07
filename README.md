@@ -1,5 +1,13 @@
+<p align=center>
+  <img align="center" width="128" height="128" src="https://avatars.githubusercontent.com/u/5711322?s=128&v=4">
+</p>
+
 # xed-plantuml-plugin
 Porting of the Gedit PlantUML plugin to Xed
+
+<p align=center>
+  <img align="center" width="800" height="450" src="https://raw.githubusercontent.com/tudo75/xed-plantuml-plugin/main/images/2.png">
+</p>
 
 ## Requirements
 First of all the system must support threads.
@@ -45,9 +53,18 @@ To uninstall and remove all added files, go inside the cloned folder and:
 ## Instructions
 Plugin must be enabled from Edit -> Preferences -> Plugins -> PlantUML
 
-And in the same place, after you have downloaded PlantUML jar library from 
+And in the same place, after you have downloaded PlantUML jar library from
+
 https://github.com/plantuml/plantuml
-you have to set the path for it. 
+
+you have to set the path for it.
+
+If you don't have the bottom panel activated, open it to view the generated image.
+
+Form the right click menu you can:
+* Zoom in, out and fit to container
+* Create an SVG version of your PlantUML diagram
+* close the image tab
 
 ## Credits
 Based on this Gedit Plugin
