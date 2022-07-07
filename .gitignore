@@ -6,6 +6,7 @@ plantuml
 *.pot
 *.mo
 *.deb
+*.ddeb
 
 build
 config.*
@@ -20,6 +21,13 @@ stamp-h1
 *.pc
 .tarball-version
 .version
+debian/build
+debian/tmp
+debian/xed-plantuml-plugin
+debian/.debhelper
+debian/xed-plantuml-plugin.substvars
+debian/xed-plantuml-plugin.debhelper.log
+debian/files
 
 *.gcda
 *.gcno

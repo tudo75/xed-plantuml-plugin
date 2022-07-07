@@ -1,5 +1,5 @@
 # project name and programming language
-project('com.github.tudo75.xed-plantuml-plugin', ['vala', 'c'], version: '0.0.3')
+project('com.github.tudo75.xed-plantuml-plugin', ['vala', 'c'], version: '0.0.1')
 
 assert('com.github.tudo75.xed-plantuml-plugin.gschema.xml'==meson.project_name() + '.gschema.xml', 'proj name and gschema file not the same')
 
