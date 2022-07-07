@@ -114,7 +114,6 @@ namespace PlantUMLPlugin {
 
             
         public void on_page_changed (Gtk.Notebook notebook, Gtk.Widget page, uint page_num) {
-            // TODO da implementare se si gestisce il riordino delle tab
             PlantUMLPicture picture = (PlantUMLPicture) page;
             string src_path = picture.get_src_path ();
             Xed.Tab tab = this._window.get_tab_from_location (GLib.File.new_for_path (src_path));

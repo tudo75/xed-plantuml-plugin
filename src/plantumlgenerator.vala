@@ -34,6 +34,12 @@ namespace PlantUMLPlugin {
         public PlantUMLGenerator (QueueElement element) {
 
             PLANTUML_JAR_FILEPATH = settings.get_string ("plantuml-file-path");
+            if (!File.new_for_path (PLANTUML_JAR_FILEPATH).query_exists (null)) {
+                var error_dialog = new Gtk.MessageDialog (null, Gtk.DialogFlags.MODAL, Gtk.MessageType.ERROR, Gtk.ButtonsType.OK, _("Missing PlantUML library"));
+                error_dialog.format_secondary_text (_("PlantUML jar library not found.\nPlease set the library location from:\nEdit -> Preferences -> Plugins -> PlantUML"));
+                error_dialog.run ();
+                error_dialog.destroy ();
+            }
 
             this.element = element;
 
