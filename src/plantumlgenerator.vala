@@ -43,7 +43,7 @@ namespace PlantUMLPlugin {
 
             this.element = element;
 
-            Thread<QueueElement?> thread = new Thread<QueueElement> ("PlantUMLGenerator " + GLib.Path.get_basename(this.element.source_path), this.run);
+            Thread<QueueElement?> thread = new Thread<QueueElement?> ("PlantUMLGenerator " + GLib.Path.get_basename(this.element.source_path), this.run);
 
             thread.join ();
         }
